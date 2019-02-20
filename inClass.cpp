@@ -1,10 +1,11 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
-void square(int val)
+void power(int base, int exp)
 {
-	cout << val * val << endl;
+	cout << pow(base, exp) << endl;
 }
 
 
