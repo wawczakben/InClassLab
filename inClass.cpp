@@ -11,5 +11,6 @@ void power(int base, int exp)
 
 int main(int argc, char * argv[])
 {
+	power(3, 2);
 	return 0;
 }
