@@ -3,14 +3,15 @@
 
 using namespace std;
 
-void power(int base, int exp)
+int power(int base, int exp)
 {
-	cout << pow(base, exp) << endl;
+	return  pow(base, exp)
 }
 
 
 int main(int argc, char * argv[])
 {
-	power(3, 2);
+	int p = power(2, 3);
+	cout << p << endl;
 	return 0;
 }
